@@ -1,0 +1,150 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('./assets/caminao.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.Imama{
+    width: 100vw;
+    height: 9vh;
+    background-color: rgba(0, 0, 0, 0.414);
+
+}
+
+@keyframes anda {
+    from{
+        transform: translateX(-25vw);
+    }
+    to{
+        transform: translatex(100vw);
+    }
+    
+}
+
+.titulo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulo p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.414);
+    border-radius: 20px 20px 0px 0px;
+    padding: .3vh 4vw;
+}
+
+.leia{
+
+    width: 100vw;
+    height: 14vh;
+    background-color: rgb(2, 57, 7);
+
+}
+
+
+.magem{
+
+    height: 130%;
+    animation: anda 5s ease-in-out infinite ;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+.inputs input{
+    padding: .8vh;
+    width: 25vw;
+    font-size: 2vh;
+    size: 5vw;
+    border-radius: 1vh;
+    background: none;
+    border-bottom: .5vh solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inputs input:focus{
+
+    border-left: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-right: none;
+    border-top: none;
+
+
+}
+
+.inputs label{
+
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 4vh;
+    color: beige;
+
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.container .sub{
+
+    margin-top: 1.5vh;
+    padding: 1vh 3vw;
+    border-radius: 2vh;
+    font-weight: bold;
+    
+}.sub:hover{
+    
+    cursor: pointer;
+
+}
+.bunto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.inpu{
+
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.696);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    padding: 17vh 15vw;
+    border-radius: 4vh;
+
+
+}
