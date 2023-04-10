@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.pagpag{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000e8;
+}
+
+.content{
+
+    width: 65%;
+    height: 98%;
+    background-color: rgba(228, 228, 228, 0.021);
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2vh;
+    width: 80%;
+    height: 90%;   
+}
+.reader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.089);
+}
+.reader label{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkgray;
+    
+}
+.cartao{
+    height: 7vh;
+}
+.alin{
+    display: flex;
+    flex-direction: column;
+    /* font-weight: bold; */
+    /* color: white; */
+    font-size: 1.3rem
+}
+
+.doisCampos{
+
+    display: flex;
+    flex-direction: row;
+    gap: 2.9vh;
+    width: 100%;
+
+}
+.inpdos{
+    
+    width: 100%;
+    padding: .5vh 1.5vw;
+    color: white;
+    background-color: #00000057;
+
+}
+
+.cartaozinho{
+    height: 45vh;
+    position: absolute;
+    right: 25%;
+    filter: grayscale(50%);
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.labe{
+    color: white;
+}
+
+.inp{
+
+    width: 50%;
+    padding: .5vh 1.5vw;
+    font-size: 1rem;
+    background-color: #00000057;
+    color: white;
+    
+}
+.Cconfi{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confirmacao{
+
+    margin-top: 2vh;
+    width: 40%;
+    background-color: darkgreen;
+    border-radius: 1vh;
+    color: white;
+    font-weight: bold;
+    padding: .5vh 1vw;
+    cursor: pointer;
+    transition: .5s;
+
+
+}.confirmacao:hover{
+
+
+    background-color: rgb(82, 126, 17);
+
+}
+.exit{
+    height: 6vh;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
