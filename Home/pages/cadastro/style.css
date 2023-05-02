@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10vw;
+    align-items: center;
+
+}
+.butt{
+    width: 30%;
+    align-self: center;
+    font-size: 1rem;
+    border-radius: .5vh;
+    font-weight: bold;
+}
+.form{
+    width: 60%;
+    display: flex;
+    gap: 1.5vh;
+    flex-direction: column;
+}
+
+.vali{
+    width: 100%;
+    padding: 0.5vh 1vw;
+    border-radius: .8vh;
+    /* color: white; */
+    font-weight: bold;
+    /* background-color: rgba(0, 0, 0, 0.90); */
+    text-align: center;
+}
+
+.campo{
+   
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    flex-direction: column;
+
+}
+
+.campo label{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.header{
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: overline underline;
+
+}
+
+
+.regreg{
+    display: flex;
+    align-items: center;
+    gap: 10vh;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 40vw;
+}
