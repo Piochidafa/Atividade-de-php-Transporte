@@ -14,14 +14,14 @@
         
             <div class="regreg">
                 <p class="header">Cadastro API-Tranporte</p>
-            <form class="form" action="">
+            <form class="form" action="./insereBanco.php" method="post">
                 <div class="campo">
                     <label for="">E-mail</label>
-                    <input class="vali" type="email">
+                    <input name="email" class="vali" type="email">
                 </div>
                 <div class="campo">
                     <label for="">Senha</label>
-                    <input class="vali" type="password">
+                    <input name="senha" class="vali" type="password">
                 </div>
                 <div class="campo">
                     <label for="">Digite sua senha novamente</label>
